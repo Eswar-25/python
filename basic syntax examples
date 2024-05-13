@@ -5,4 +5,16 @@ name = "Bard"
 # Using a variable
 print("Hello, my name is", name)
 
+**Data Type**
 
+# Integers
+age = 30
+
+# Float
+pi = 3.14
+
+# String
+greeting = 'How are you?'
+
+# Boolean
+is_sunny = True
