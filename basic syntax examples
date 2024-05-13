@@ -1,5 +1,8 @@
+**Variables**
 # Naming a variable
-name = "Bard"
 
+name = "Bard"
 # Using a variable
 print("Hello, my name is", name)
+
+
