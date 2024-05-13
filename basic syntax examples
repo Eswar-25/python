@@ -3,4 +3,3 @@ name = "Bard"
 
 # Using a variable
 print("Hello, my name is", name)
-
