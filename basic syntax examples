@@ -5,6 +5,7 @@ name = "Bard"
 # Using a variable
 print("Hello, my name is", name)
 
+
 **Data Type**
 
 # Integers
@@ -47,6 +48,7 @@ if age >= 18:
 else:
     print("You cannot vote yet")
 
+
 **Loop (for loop & While loop)**
 
 # Looping through a list of numbers
@@ -61,6 +63,7 @@ count = 0
 while count < 5:
   print("Count:", count)
   count += 1  # Incrementing the counter
+
 
 **Function**
 
@@ -78,6 +81,23 @@ import math
 
 # Using a function from the module
 area_of_circle = math.pi * (radius**2)
+
+
+**Classes and Objects**
+
+class Car:
+  """This class represents a car."""
+  def __init__(self, make, model, year):
+    self.make = make
+    self.model = model
+    self.year = year
+
+  def accelerate(self):
+    print(f"The {self.make} {self.model} is accelerating!")
+
+my_car = Car("Tesla", "Model S", 2024)
+my_car.accelerate()
+
 
 
 
