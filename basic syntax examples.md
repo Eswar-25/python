@@ -9,7 +9,7 @@ print("Hello, my name is", name)
 **Data Type**
 
 # Integers
-age = 30
+age = 25
 
 # Float
 pi = 3.14
